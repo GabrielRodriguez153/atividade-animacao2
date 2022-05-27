@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-image: url("../fundo.png");
+    background-repeat: no-repeat;   
+    background-size: 2500px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+.imag{
+    transform: rotateY(180deg);
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    width: 100px;
+    text-align: center;
+}
+
+#cav-xad{
+    position: relative;
+    animation: mov-div 15s infinite;
+}
+
+@keyframes  mov-div{
+    0%{top:0px;left: 10px;}
+    6%{top:296px;left: 10px;}
+    12.5%{top:296px; left: 160px;}
+    19%{top:595px; left: 160px;}
+    25%{top:595px; left: 328px;}
+    31%{top: 895px;left: 328px;}
+    37.5%{top:895px;left: 495px;}
+    50%{top:895px;left: 805px;}
+    60%{top:1045px;left: 805px;}
+    62%{top:745px;left: 805px;}
+    69%{top:745px;left: 645px;}
+    75%{top: 455px; left: 645px;}
+    81%{top: 455px; left: 500px;}
+   87.5%{top: 155px; left: 500px;}
+   94%{top: 155px; left: 350px;}
+   97%{top: 155px; left: 10px;}
+   100%{top: 0px; left: 10px;}
+}
+
+
+
